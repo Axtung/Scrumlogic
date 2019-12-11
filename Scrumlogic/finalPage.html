@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="less/styleLess.css">
+</head>
+<body>
+<header class="header container">
+    <h1 class="header__h1">Тестовое задание</h1>
+</header>
+<div class="content index container">
+    <div class="content__item">
+        <final ref="test" :total="totalCountAnswers" :texts="getRightEnd"></final>
+    </div>
+    <a href="index.html" class="content__button start">Пройти тест заново</a>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+<script src="scripts/questionComponent.js"></script>
+<script src="scripts/finalComponent.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="less/styleLess.css">
+    <title>страница1</title>
+</head>
+<body>
+<header class="header container">
+    <h1 class="header__h1">ответы</h1>
+</header>
+<div class="content container">
+    <test ref="test" :id="1" link="pageTwo.html" word="Следующий вопрос" :total="totalCountAnswers"
+         :text="getRightEnd"></test>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+<script src="scripts/questionComponent.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
